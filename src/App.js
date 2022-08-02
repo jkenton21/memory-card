@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+//App.js
+// Main App component for importing/rendering the other components
 import React from 'react';
 import Scoreboard from './components/Scoreboard';
-import Gameboard from './components/Gameboard';
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
         Memory Game!
       </header>
       <Scoreboard />
-      <Gameboard />
       <footer className="App-footer">
         by jkenton21
       </footer>
