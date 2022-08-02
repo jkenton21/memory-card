@@ -1,0 +1,2 @@
+*{font-family:sans-serif;text-align:center}.App-header{align-items:center;background-color:#add8e6;color:#fff;display:flex;flex-direction:column;font-size:32px;height:10vh;justify-content:center}.gameBoard{display:grid;grid-template-columns:repeat(5,1fr);margin:50px}.card,.gameBoard{align-items:center}.card{background-color:#add8e6;border:1px solid #000;border-radius:50px;cursor:pointer;display:flex;font-family:Franklin Gothic Medium;font-size:32px;height:50px;justify-content:center;margin:10px;width:50px}
+/*# sourceMappingURL=main.607d3909.css.map*/
