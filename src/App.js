@@ -2,6 +2,7 @@
 // Main App component for importing/rendering the other components
 import React from 'react';
 import Scoreboard from './components/Scoreboard';
+import './styles/App.css'
 
 function App() {
   return (

@@ -1,0 +1,40 @@
+/* App.css */
+/* Stying guide for the Memory Card Game App */
+
+* {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.App-header {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 10vh;
+    font-size: 32px;
+}
+
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin: 50px;
+}
+
+.card {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background-color: lightblue;
+    font-family: 'Franklin Gothic Medium';
+}
