@@ -4,10 +4,19 @@
 * {
     text-align: center;
     font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
 }
 
 .App-header {
-    background-color: lightblue;
+    background-color: royalblue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +24,27 @@
     color: white;
     height: 10vh;
     font-size: 32px;
+    font-family: "Mukta", serif;
+}
+
+.App-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 5vh;
+    font-size: 16px;
+    font-family: "Mukta", serif;
+}
+
+h1 {
+    margin: 10px;
+    font-family: "Mukta", serif;
+}
+
+.scores {
+    font-family: "Mukta", serif;
 }
 
 .gameBoard {
@@ -22,19 +52,25 @@
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     margin: 50px;
+
 }
 
 .card {
     width: 50px;
     height: 50px;
-    border: 1px solid black;
-    border-radius: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
     margin: 10px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
-    background-color: lightblue;
-    font-family: 'Franklin Gothic Medium';
+    background-color: royalblue;
+    font-family: "Mukta", serif;
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.2);
 }
